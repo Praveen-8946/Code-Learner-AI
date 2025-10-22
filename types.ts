@@ -1,4 +1,4 @@
-// Fix: Import React to provide the JSX namespace.
+// FIX: Import React to resolve the "Cannot find namespace 'JSX'" error.
 import React from 'react';
 
 export type Level = 'Beginner' | 'Intermediate' | 'Advanced';

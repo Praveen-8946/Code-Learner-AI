@@ -69,3 +69,5 @@ export const MySqlIcon = () => (
         <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontSize="10" fontWeight="bold" fill="currentColor">MySQL</text>
     </IconWrapper>
 );
+
+

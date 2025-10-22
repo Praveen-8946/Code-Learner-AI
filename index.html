@@ -108,6 +108,22 @@
       .code-editor-wrapper textarea::placeholder {
         color: #64748b; /* slate-500 */
       }
+
+      /* Animations for Welcome Screen */
+      @keyframes fadeInScale {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; visibility: hidden; }
+      }
+      .animate-fade-in-scale {
+        animation: fadeInScale 1.5s ease-out forwards;
+      }
+      .animate-fade-out {
+        animation: fadeOut 1s ease-in forwards 3s; /* Start after 3s */
+      }
     </style>
   <script type="importmap">
 {

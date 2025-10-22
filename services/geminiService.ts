@@ -44,7 +44,7 @@ const responseSchema = {
 
 export const generatePracticeQuestions = async (level: Level, language: PracticeLanguage): Promise<Question[]> => {
   const prompt = `
-    Generate 5 practice questions for a ${level} programmer learning ${language}.
+    Generate 10 practice questions for a ${level} programmer learning ${language}.
     Provide a mix of multiple-choice (mcq) and code-writing (code) questions.
     - For "mcq" questions, you MUST provide an "options" array with 4 distinct choices.
     - For "code" questions, you MUST NOT provide an "options" array.
